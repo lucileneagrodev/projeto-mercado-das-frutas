@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+
+    h1 {
+        text-align: center;
+        margin-left: 10px;
+        font-size: 18px;
+
+    }
+
+    .card {
+        gap: -5rem;
+        height: 255px;
+        margin-top: 25px;
+    }
+
+    .fruta-imagem {
+        width: 150px;
+        height: 130px;
+    }
+
+    .nome-preco {
+        margin-top: 160px;
+    }
+
+    .nome {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .preco-peso {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+
+    .btn {
+        width: 130px;
+        margin-top: 28px;
+    }
+
+
+}

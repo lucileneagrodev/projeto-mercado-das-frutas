@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*cabeçalho*/
+header {
+  background-image: url("../img/frutas2cortada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #f33e08;
+}
+
+h1 {
+  letter-spacing: .2rem;
+  color: white;
+}
+
+/*Grid de Produtos*/
+.container {
+  background: #eee;
+  max-width: 100vw;
+}
+
+.container-fruta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.card {
+  position: relative;
+  height: 360px;
+  width: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fruta-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 189px;
+  width: 265px;
+  text-align: center;
+  background-size: cover;
+  border: 3px solid #f33e08;
+  border-radius: 5px 0px 5px 0px;
+}
+
+#fruta-1 {
+  background-image: url('../img/acerola.jpg');
+}
+
+#fruta-2 {
+  background-image: url('../img/banana.jpg');
+}
+
+#fruta-3 {
+  background-image: url('../img/kiwi.jpg');
+}
+
+#fruta-4 {
+  background-image: url('../img/laranja.jpg');
+}
+
+#fruta-5 {
+  background-image: url('../img/mamao.jpg');
+}
+
+#fruta-6 {
+  background-image: url('../img/manga.jpg');
+}
+
+.nome-preco {
+  display: flex;
+  margin-top: 210px;
+
+}
+
+.nome {
+  color: #eb6137;
+  font-size: 18px;
+}
+
+.preco-peso {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 6px;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+.btn {
+  width: 240px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #eb6137;
+  color: #fff;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 25px;
+  border: 0;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: #f33e08;
+}
+
+/*footer*/
+footer {
+  border: 6px;
+  background-color: #eb6137;
+  color: white;
+  border-top: 4px solid #f33e08;
+  text-align: center;
+  padding: 78px;
+  height: 100px;
+}
